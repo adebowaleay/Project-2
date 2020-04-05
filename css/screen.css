@@ -80,16 +80,17 @@ input[type=submit] {
 .location {
     text-align: right;
     align-content: top;
+    padding: 200px;
+    font-size: 30px
     
 }
-
-
 
 
 .row:after {
   content: "";
   display: table;
   clear: both;
+padding: 102px 80px;
 }
 
 
@@ -98,6 +99,7 @@ input[type=submit] {
   width: 50%;
   margin-top: 6px;
   padding: 20px;
+    
 }
 /* Media Queries  */
 
