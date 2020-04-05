@@ -98,6 +98,12 @@ input[type=submit] {
 }
 
 
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
 /* Media Queries  */
 
 @media screen and (min-width: 480px){
