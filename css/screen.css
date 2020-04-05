@@ -1,4 +1,7 @@
-/* Style the html */
+/* Style the html 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_section
+
+*/
 html {
     border-radius: 5px;
     background-color: blanchedalmond;
@@ -81,7 +84,12 @@ input[type=submit] {
     text-align: left;
     align-content: top;
     padding: 200px;
-    font-size: 30px
+    font-size: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color:chartreuse;
+    text-decoration: underline;
+    line-height: 2.0px;
     
 }
 
@@ -90,7 +98,6 @@ input[type=submit] {
   content: "";
   display: table;
   clear: both;
-padding: 102px 80px;
 }
 
 
@@ -103,8 +110,19 @@ padding: 102px 80px;
 }
 /* Media Queries  */
 
+@media screen and (max-width: 480px) {
+  .column, .location ,input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    
+  }
+}
+
+
+
+
 @media screen and (min-width: 480px){
-    .taking, h1, input[type=submit], input[type=text], textarea {
+    .taking, h1, input[type=submit], input[type=text], textarea ,{
         width: 100%;
         margin-top: 0;
 
