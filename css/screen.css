@@ -78,7 +78,7 @@ input[type=submit] {
 }
 
 .location {
-    text-align: right;
+    text-align: left;
     align-content: top;
     padding: 200px;
     font-size: 30px
