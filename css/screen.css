@@ -118,7 +118,13 @@ input[type=submit] {
   }
 }
 
-
+@media screen and (max-width: 780px) {
+  .column, .location ,input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    padding: 15px 15px 15px 15px;  
+  }
+}
 
 
 @media screen and (min-width: 480px){
