@@ -90,6 +90,14 @@ input[type=submit] {
     
 }
 
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 /* Media Queries  */
 
 @media screen and (min-width: 480px){
