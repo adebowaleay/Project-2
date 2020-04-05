@@ -83,6 +83,12 @@ input[type=submit] {
     
 }
 
+.form {
+    text-align: left;
+    align-content: left;
+    
+    
+}
 
 /* Media Queries  */
 
