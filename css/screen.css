@@ -225,6 +225,13 @@ td{
     text-align: center;
 }
 
+.foot{
+    
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    color:darkblue;
+}
 
 
 /* for hovering over nav*/
