@@ -22,7 +22,6 @@ input[type=text],textarea {
     border-radius: 10px;
     box-sizing: border-box;
     resize: vertical;
-    align-content: left;
     text-align: left;
    
 }
@@ -35,7 +34,6 @@ input[type=date], textarea{
     border-radius: 10px;
     box-sizing: border-box;
     resize: vertical;
-    align-content: left;
     text-align: left;
   
 
@@ -48,7 +46,6 @@ input[type=email], textarea{
     border-radius: 10px;
     box-sizing: border-box;
     resize: vertical;
-    align-content: left;
     text-align: left;
 
 
@@ -60,7 +57,6 @@ input[type=password], textarea{
     border-radius: 10px;
     box-sizing: border-box;
     resize: vertical;
-    align-content: left;
     text-align: left;
 
 }
@@ -76,13 +72,11 @@ input[type=submit] {
     padding: 12px 20px;
     border-radius: 100px;
     cursor: pointer;
-    align-content: left;
     
 }
 
 .location {
     text-align: left;
-    align-content: top;
     padding: 200px;
     font-size: 25px;
     border-radius: 10px;
@@ -140,7 +134,7 @@ ul li{
 ul li a { 
     font-size:14px;
     color:aqua;
-    padding: 1 20px;
+    padding: 120px;
 }
 blockquote, q {
     quotes:none;
@@ -161,8 +155,6 @@ header::after{
     display: table;
     clear: both;
 }
-
- for pictures*/
 
 
 .logo{
@@ -264,7 +256,7 @@ input[type=submit]:hover {
 
 
 @media screen and (min-width: 480px){
-    .taking, h1, input[type=submit], input[type=text], textarea ,{
+    .taking, h1, input[type=submit], input[type=text], textarea {
         width: 100%;
         margin-top: 0;
 
