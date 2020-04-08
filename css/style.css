@@ -228,7 +228,7 @@ td{
 
 /* for hovering over nav*/
 input[type=submit]:hover {
-    background-color: greenyellow;
+    background-color: #002b5d;
 }
 
 iframe {
