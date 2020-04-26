@@ -1,3 +1,22 @@
+body, div, span, object, iframe,
+h3, h4, h5, h6, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:10;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+}
+
 html {
     border-radius: 5px;
     background-color: #6688a3;
@@ -10,6 +29,10 @@ h1, h2 {
     text-decoration: underline;
     font-size: 2em;
     color: #01489b;
+}
+
+p {
+    font-size: 1.3em;
 }
 /* styling the input area from here to all the way till password input */
 input[type=text],textarea {
@@ -150,6 +173,8 @@ header::after{
 
     float: left;
     padding:10px 0;
+    height: 10em;
+    width: 10m;
     /* for logo*/
 }
 /* for nav bar*/
@@ -204,16 +229,6 @@ nav a:hover::before{
 }
 
 
-th{
-    color: #c0392b;
-
-}
-td{
-    color: black;
-    padding: 1% 1.5%;
-    text-align: center;
-}
-
 .foot{
     
     text-align: center;
@@ -223,7 +238,7 @@ td{
 }
 
 
-/* for hovering over nav*/
+/* for hovering over submit*/
 input[type=submit]:hover {
     background-color: #002b5d;
 }
@@ -234,9 +249,6 @@ iframe {
     border: solid 5px #474d54;
 }
 
-.logo, img {
-    padding: 5px;
-}
 
 .img {
     padding: 0;
