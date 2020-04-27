@@ -35,6 +35,11 @@ p {
     font-size: 1.3em;
 }
 
+.vid {
+    padding: 15px;
+    font-size: 10em;
+    margin: 5px;
+}
 
 /* styling the input area from here to all the way till password input */
 
