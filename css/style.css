@@ -5,7 +5,7 @@ del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
 b, i,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+fieldset, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, summary,
@@ -34,15 +34,21 @@ h1, h2 {
 p {
     font-size: 1.3em;
 }
+
+
 /* styling the input area from here to all the way till password input */
-input[type=text],textarea {
+
+input[type=text], textarea {
     width: 100%;
     padding: 5px;
     border: 3px solid #acacac;
     border-radius: 10px;
     box-sizing: border-box;
-    resize: vertical;
-    text-align: left;
+    display: inline-block;
+
+    font-size: 1em;
+    font-style: italic;
+   
    
 }
 
@@ -53,8 +59,9 @@ input[type=date], textarea{
     border: 3px solid #acacac;
     border-radius: 10px;
     box-sizing: border-box;
-    resize: vertical;
-    text-align: left;
+ display: inline-block;
+    font-size: 1em;
+    font-style: italic;
   
 
 }
@@ -65,25 +72,30 @@ input[type=email], textarea{
     border: 3px solid #acacac;
     border-radius: 10px;
     box-sizing: border-box;
-    resize: vertical;
-    text-align: left;
+    display: inline-block;
+    font-size: 1em;
+    font-style: italic;
 
 
 }
 input[type=password], textarea{
-    width: 100%;
+    width: 120%;
     padding: 5px;
     border: 3px solid #acacac;
     border-radius: 10px;
     box-sizing: border-box;
-    resize: vertical;
-    text-align: left;
+     display: inline-block;
+    font-size: 1em;
+    font-style: italic;
 
 }
+
 
 label {
     padding: 12px 12px 12px 0px;
     display: inline-block;
+    font-size: 1.05em;
+    font-weight: 900;
 }
 
 input[type=submit] {
@@ -266,6 +278,25 @@ iframe {
     padding: 15px;
 }
 
+.column {
+
+float: left;
+
+width: 600px;
+
+margin-top: 6px;
+
+
+}
+
+input, textarea{
+
+width: 100%;
+
+
+
+}
+
 
 
 /* Media Queries  */
@@ -291,15 +322,6 @@ iframe {
 
   }
 }
-
-
-/*@media screen and (min-width: 480px){
-    .taking, h1, input[type=submit], input[type=text], textarea {
-        width: 100%;
-        margin-top: 0;
-
-    }
-}*/
 
 @media screen and (min-width: 780px){
     input[type=submit]{
