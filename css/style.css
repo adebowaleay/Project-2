@@ -278,6 +278,25 @@ iframe {
     padding: 15px;
 }
 
+.column {
+
+float: left;
+
+width: 600px;
+
+margin-top: 6px;
+
+
+}
+
+input, textarea{
+
+width: 100%;
+
+
+
+}
+
 
 
 /* Media Queries  */
