@@ -35,6 +35,12 @@ p {
     font-size: 1.3em;
 }
 
+p.vid {
+    padding: 15px;
+    align-content: center;
+    text-align: center;
+    font-size: 1.3em;
+}
 
 /* styling the input area from here to all the way till password input */
 
@@ -45,11 +51,8 @@ input[type=text], textarea {
     border-radius: 10px;
     box-sizing: border-box;
     display: inline-block;
-
     font-size: 1em;
     font-style: italic;
-   
-   
 }
 
 
@@ -62,8 +65,6 @@ input[type=date], textarea{
  display: inline-block;
     font-size: 1em;
     font-style: italic;
-  
-
 }
 
 input[type=email], textarea{
@@ -78,6 +79,7 @@ input[type=email], textarea{
 
 
 }
+
 input[type=password], textarea{
     width: 120%;
     padding: 5px;
@@ -143,45 +145,46 @@ body {
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
-    display:block;
+    display: block;
 }
 
 
 ul li{
     display: inline-block;
-    line-height:100px;
+    line-height: 100px;
 
 }
 
 ul li a { 
-    font-size:14px;
-    color:aqua;
+    font-size: 14px;
+    color: aqua;
     padding: 120px;
 }
+
 blockquote, q {
-    quotes:none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content:'';
+    content: '';
     content:none;
 }
 
 
-header{
+header {
     background: #446086;
     border: solid 5px #474d54;
 }
 
-header::after{
+header::after {
     content:'';
     display: table;
     clear: both;
 }
 
 
-.logo{
+.logo {
 
     float: left;
     padding:10px 0;
@@ -196,14 +199,14 @@ nav {
     font-weight: 700;
 }
 
-nav ul{
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 
 }
 
-nav li{
+nav li {
 
     display: inline-block;
     margin-left: 70px;
@@ -221,10 +224,12 @@ nav a {
     font-size: 25px;
     text-align: center;
 }
-nav a:hover{
+
+nav a:hover {
     color: #000;
 }
-nav a:before{
+
+nav a:before {
     content:'';
     display:block;
     height: 5px;
@@ -235,14 +240,13 @@ nav a:before{
     transition: all ease-in-out 250ms;
 
 }
-nav a:hover::before{
-    width: 100%;
 
+nav a:hover::before {
+    width: 100%;
 }
 
 
-.foot{
-    
+.foot {
     text-align: center;
     align-content: center;
     font-size: 30px;
@@ -255,15 +259,21 @@ input[type=submit]:hover {
     background-color: #002b5d;
 }
 
-iframe {
+iframe.border {
     float: left;
-    padding: 0;
+    padding: 5px;
     border: solid 5px #474d54;
 }
 
+/*.border {
+    float: left;
+    padding: 5px;
+    border: solid 5px #474d54;
+}*/
+
 
 .img {
-    padding: 0;
+    padding: 5px;
     height: 307px;
     width: 480px;
     float: right;
@@ -279,22 +289,13 @@ iframe {
 }
 
 .column {
-
-float: left;
-
-width: 600px;
-
-margin-top: 6px;
-
-
+	float: left;
+	width: 600px;
+	margin-top: 6px;
 }
 
 input, textarea{
-
-width: 100%;
-
-
-
+	width: 100%;
 }
 
 
@@ -302,10 +303,16 @@ width: 100%;
 /* Media Queries  */
 
 @media screen and (max-width: 480px) {
-  .column, .location ,input[type=submit] {
+  .column, .location, input[type=submit] {
     width: 100%;
     margin-top: 0;
     
+  }
+  
+  iframe.border {
+    width: 450px;
+    height: 253px;
+    align-content: center;
   }
 }
 
@@ -329,8 +336,13 @@ width: 100%;
         padding: 15px 15px 15px 15px;
     
     }
+    
+    iframe.border {
+    width: 560px;
+    height: 315px;
+    align-content: center;
+  }
 
 
 }
 
-/*comment*/
