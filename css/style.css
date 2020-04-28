@@ -298,7 +298,11 @@ input, textarea{
 	width: 100%;
 }
 
+#more {display: none;}
 
+.roundimage{
+	border-radius: 50%;
+}
 
 /* Media Queries  */
 
@@ -345,5 +349,3 @@ input, textarea{
 
 
 }
-
-#more {display: none;}
