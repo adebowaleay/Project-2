@@ -298,8 +298,32 @@ input, textarea{
 	width: 100%;
 }
 
+#more {display: none;}
 
+.roundimage{
+	border-radius: 50%;
+}
 
+div.isudpics {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.isudpics:hover {
+  border: 1px solid #777;
+}
+
+div.isudpics img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 /* Media Queries  */
 
 @media screen and (max-width: 480px) {
@@ -345,4 +369,3 @@ input, textarea{
 
 
 }
-
